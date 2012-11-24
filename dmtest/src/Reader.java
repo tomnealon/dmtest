@@ -32,5 +32,9 @@ public class Reader {
 			System.out.print(item + "\t");
 		}
 	}
+	
+	private boolean detectInt(String cell) {
+		return cell.matches("-?\\d+(\\.\\d+)?");
+	}
 
 }
